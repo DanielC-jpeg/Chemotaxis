@@ -33,8 +33,8 @@ class Minion{
   }
  
  void show(){
-minionpng = loadImage("minion.png");
-  image(minionpng,myX,myY,80,80);
+fill(255,255,0);
+ellipse(30,30,myX,myY);
  }
  
  void move(){
