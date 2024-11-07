@@ -34,7 +34,7 @@ class Minion{
  
  void show(){
 fill(255,255,0);
-ellipse(30,30,myX,myY);
+ellipse(myX,myY,30,30);
  }
  
  void move(){
